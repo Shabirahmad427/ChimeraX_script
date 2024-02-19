@@ -6,15 +6,6 @@ cartoon style strand width 1
 cartoon style helix width 1
 cartoon style protein thickness 0.3
 lighting depthCue false
-label sel text "{0.label_one_letter_code}{0.number}" height 1.2
-matchmaker #2 to #1
-hide HC
-transparency 95 target r
-  
-
-sel
-preset opaque
-Sel: 88-104:318-338: 230-242
 light soft
 material transparentCastShadows true
 lighting model #2 multishadow false
@@ -22,7 +13,13 @@ graphics silhouettes true
 light full
 
 
-
+label sel text "{0.label_one_letter_code}{0.number}" height 1.2
+matchmaker #2 to #1
+hide HC
+transparency 95 target r
+sel
+preset opaque
+Sel: 88-104:318-338: 230-242
 
 
 
