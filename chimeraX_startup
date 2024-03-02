@@ -1,10 +1,10 @@
 camera ortho
 cofr centerofview
 volume defaultvalues limitVoxelCount false voxelLimitForPlane 1000000000000000 voxelLimitForOpen 1000000000000000 saveSettings true
-size ballScale 0.2 stickRadius 0.2
-cartoon style strand width 1
-cartoon style helix width 1
-cartoon style protein thickness 0.3
+size ballScale 0.3 stickRadius 0.3
+cartoon style strand width 1.2
+cartoon style helix width 1.2
+cartoon style protein thickness 0.4
 lighting depthCue false
 light soft
 material transparentCastShadows true
