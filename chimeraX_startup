@@ -14,6 +14,8 @@ lighting model #2 multishadow false
 graphics silhouettes true
 light full
 
+lighting gentle
+
 
 label sel text "{0.label_one_letter_code}{0.number}" height 1.2
 matchmaker #2 to #1
