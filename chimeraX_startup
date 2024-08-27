@@ -1,4 +1,4 @@
-## resname CLOL AMAN AFUC BGLCNA or (protein and resid 131 35 and name CA CB CG ND2)
+## resname AFUC AMAN BGLC CLOL  or (protein and resid 131 35 and name CA CB CG ND2)
 
 camera ortho
 cofr centerofview
