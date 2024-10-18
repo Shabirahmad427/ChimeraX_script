@@ -1,0 +1,9 @@
+load 2BOD_BGLC_WAT.pdb
+select ligand, resname BGLC
+select waters, resname HOH
+select waters_within_5A, byres (ligand around 5.0)
+show sticks, ligand
+show spheres, waters_within_5A
+color red, ligand
+color blue, waters_within_5A
+save filtered_bglc_with_nearby_waters.pdb, (ligand or waters_within_5A)
