@@ -1,5 +1,5 @@
 ## resname AFUC AMAN BGLC CLOL  or (protein and resid 131 35 and name CA CB CG ND2)
-
+## protein and resid 142 203 and name CA CB CG OD1 OD2
 camera ortho
 cofr centerofview
 volume defaultvalues limitVoxelCount false voxelLimitForPlane 1000000000000000 voxelLimitForOpen 1000000000000000 saveSettings true
