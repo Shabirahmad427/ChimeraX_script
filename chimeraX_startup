@@ -18,6 +18,12 @@ lighting gentle
 
 clip front 0 position :LIG
 
+##movie recording
+movie record supersample 3 size 1920,1080 format png 
+coordset #1 1,500
+movie encode output movie.mp4
+
+
 label sel text "{0.label_one_letter_code}{0.number}" height 1.8
 matchmaker #2 to #1
 hide HC
