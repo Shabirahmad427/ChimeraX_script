@@ -21,6 +21,7 @@ clip front 0 position :LIG
 ##movie recording
 movie record supersample 3 size 7339,4237 format png 
 movie record supersample 3 size 5920,2960 format png
+movie record supersample 3 size 3920,1960 format png
 
 coordset #1 1,500
 movie encode output movie.mp4
