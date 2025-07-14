@@ -24,6 +24,8 @@ movie record supersample 3 size 5920,2960 format png
 movie record supersample 3 size 3920,1960 format png
 
 coordset #1 1,500
+coordset #1 1,500,5
+
 movie encode output movie.mp4
 
 
