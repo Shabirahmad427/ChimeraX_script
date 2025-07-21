@@ -16,6 +16,8 @@ graphics silhouettes true
 light full
 lighting gentle
 
+
+cartoon style modeHelix tube radius 1.5
 clip front 0 position :LIG
 
 ##movie recording
