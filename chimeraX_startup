@@ -18,6 +18,7 @@ lighting gentle
 
 
 cartoon style modeHelix tube radius 1.5
+cartoon style protein modeh tube rad 1.5 sides 24 thick 0.5
 clip front 0 position :LIG
 
 ##movie recording
