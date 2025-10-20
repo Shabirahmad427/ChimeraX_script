@@ -6,8 +6,8 @@ cofr centerofview
 volume defaultvalues limitVoxelCount false voxelLimitForPlane 1000000000000000 voxelLimitForOpen 1000000000000000 saveSettings true
 size ballScale 1 stickRadius 0.23
 cartoon style strand width 2
-cartoon style helix width 2.5
-cartoon style protein thickness 0.35
+cartoon style helix width 2.2
+cartoon style protein thickness 0.3
 lighting depthCue false
 light soft
 material transparentCastShadows true
