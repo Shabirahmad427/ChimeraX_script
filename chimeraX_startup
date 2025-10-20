@@ -23,6 +23,8 @@ clip front 0 position :LIG
 
 GH loops
 sel :174-191:307-330:355-391:397-435:GLC
+select ~sel & ##selected
+transparency sel 2 target ac
 
 cartoon #1
 color #1 #8b9eab
