@@ -48,6 +48,16 @@ color #1:397-435 #4ffb7a
 
 
 
+pcasuite
+cartoon #1
+color #1 #8b9eab
+color #1:174-191 #0055ff
+color #1:307-330 #4be2e2
+color #1:355-391 #fb5607
+color #1:397-435 #4ffb7a
+
+
+
 ##movie recording
 movie record supersample 3 size 7339,4237 format png 
 movie record supersample 3 size 5920,2960 format png
