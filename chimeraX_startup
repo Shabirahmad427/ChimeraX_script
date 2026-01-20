@@ -70,8 +70,10 @@ color teal1, protein.traj.proj1.renumbered and resi 174-191
 color cyan1, protein.traj.proj1.renumbered and resi 307-330
 color orange1, protein.traj.proj1.renumbered and resi 355-391
 color green1, protein.traj.proj1.renumbered and resi 397-435
-show sticks, protein.traj.proj1.renumbered and resn GLC
-color yellow, protein.traj.proj1.renumbered and resn GLC
+
+extract GLC, protein.traj.proj1.renumbered and resn GLC
+show sticks, GLC
+color yellow, GLC
 
 
 ##movie recording
