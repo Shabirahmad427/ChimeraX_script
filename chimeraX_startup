@@ -53,6 +53,7 @@ color #1:397-435 #4ffb7a
 
 ##pymol##
 D416A
+pc1
 bg_color white
 intra_fit protein.traj.proj1.renumbered
 dss protein.traj.proj1.renumbered
@@ -63,18 +64,37 @@ set_color teal1, [0.0, 0.651, 0.651]
 set_color cyan1, [0.294, 0.886, 0.886]
 set_color orange1, [0.984, 0.337, 0.027]
 set_color green1, [0.31, 0.984, 0.478]
-
 show cartoon, protein.traj.proj1.renumbered
 color pink1, protein.traj.proj1.renumbered
 color teal1, protein.traj.proj1.renumbered and resi 174-191
 color cyan1, protein.traj.proj1.renumbered and resi 307-330
 color orange1, protein.traj.proj1.renumbered and resi 355-391
 color green1, protein.traj.proj1.renumbered and resi 397-435
-
 extract GLC, protein.traj.proj1.renumbered and resn GLC
 show sticks, GLC
 color yellow, GLC
 
+pc2
+bg_color white
+intra_fit protein.traj.proj2.renumbered
+dss protein.traj.proj2.renumbered
+set all_states, 1
+mstop
+set_color pink1, [1.0, 0.592, 0.592]
+set_color teal1, [0.0, 0.651, 0.651]
+set_color cyan1, [0.294, 0.886, 0.886]
+set_color orange1, [0.984, 0.337, 0.027]
+set_color green1, [0.31, 0.984, 0.478]
+hide everything, protein.traj.proj2.renumbered
+show cartoon, protein.traj.proj2.renumbered
+color pink1, protein.traj.proj2.renumbered
+color teal1, protein.traj.proj2.renumbered and resi 174-191
+color cyan1, protein.traj.proj2.renumbered and resi 307-330
+color orange1, protein.traj.proj2.renumbered and resi 355-391
+color green1, protein.traj.proj2.renumbered and resi 397-435
+extract GLC, protein.traj.proj2.renumbered and resn GLC
+show sticks, GLC
+color yellow, GLC
 
 ##movie recording
 movie record supersample 3 size 7339,4237 format png 
