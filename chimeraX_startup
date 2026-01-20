@@ -53,6 +53,7 @@ color #1:397-435 #4ffb7a
 
 ##pymol##
 D416A
+intra_fit protein.traj.proj1.renumbered
 dss protein.traj.proj1.renumbered
 set all_states, 1
 mstop
