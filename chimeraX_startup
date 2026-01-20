@@ -85,7 +85,6 @@ set_color teal1, [0.0, 0.651, 0.651]
 set_color cyan1, [0.294, 0.886, 0.886]
 set_color orange1, [0.984, 0.337, 0.027]
 set_color green1, [0.31, 0.984, 0.478]
-hide everything, protein.traj.proj2.renumbered
 show cartoon, protein.traj.proj2.renumbered
 color color1, protein.traj.proj1.renumbered  
 color teal1, protein.traj.proj2.renumbered and resi 174-191
