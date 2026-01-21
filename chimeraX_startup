@@ -16,6 +16,7 @@ graphics silhouettes true
 light full
 lighting gentle
 
+source ~/venvs/correlation/bin/activate
 
 cartoon style modeHelix tube radius 1.5
 cartoon style protein modeh tube rad 1.5 sides 24 thick 0.5
