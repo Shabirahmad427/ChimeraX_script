@@ -1,6 +1,7 @@
 ## resname AFUC AMAN BGLC CLOL  or (protein and resid 131 35 and name CA CB CG ND2)
 ## ASP: protein and resid 142 203 and name CA CB CG OD1 OD2 HD2
 ## GLU : protein and resid 55 and name CA CB CG CD HA1 HA2 OE1 OE2 HE2
+## TRP : CA CB CG CD1 CD2 NE1 CE2 CE3 CZ2 CZ3 CH2
 residue 122 143 251 235 236 237 238 420 566 650 653 and noh and not name C N O HN1 HN2
 camera ortho
 cofr centerofview
